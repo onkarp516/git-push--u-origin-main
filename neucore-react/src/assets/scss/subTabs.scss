@@ -1,0 +1,71 @@
+// Sub Tabs 29-03-2022
+
+.sub-tab-style {
+  background-color: rgb(255, 255, 255);
+  font-size: 13px;
+  line-height: 10px;
+  position: sticky;
+  top: 76px;
+  overflow: auto;
+  z-index: 999;
+}
+
+.bgtime {
+  background-color: #f6edd3;
+}
+
+// .steptabs {
+//   background: #f5f5f5;
+//   border: 1px solid #cfd1d6;
+//   color: #7d8893;
+//   border-radius: 20px;
+//   width: 80px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   font-size: 14px;
+//   font-weight: 500;
+//   padding-top: 2px;
+//   padding-bottom: 2px;
+//   text-align: center;
+//   text-decoration: none;
+//   cursor: pointer;
+// }
+// .steptabs:active {
+//   background-color: #0e70e7 !important;
+//   border-radius: 20px;
+//   color: white !important;
+//   border: 1px solid #0e70e7 !important;
+// }
+// .stepper-horizontal li:not(:last-child):after {
+//   position: relative !important;
+//   -webkit-box-flex: 1 !important;
+//   -ms-flex: 1 !important;
+//   flex: 1 !important;
+//   height: 1px !important;
+//   margin: 0.5rem 0 0 0 !important;
+//   content: "";
+//   background-color: rgba(0, 0, 0, 0.1) !important;
+// }
+// .stepper-horizontal li:not(:first-child):before {
+//   position: relative;
+//   -webkit-box-flex: 1;
+//   -ms-flex: 1;
+//   flex: 1;
+//   height: 1px;
+//   margin: 0.5rem 0 0 0;
+//   content: "";
+//   background-color: rgba(0, 0, 0, 0.1);
+// }
+// .tab-content {
+//   height: 45vh;
+
+//   // @media (max-width: 1280px) {
+//   //   height: 45vh;
+//   // }
+//   // @media (min-width: 1281px) and (max-width: 1368px) {
+//   //   height: 55vh;
+//   // }
+//   @media (min-width: 1369px) and (max-width: 1440px) {
+//     height: auto;
+//   }
+// }

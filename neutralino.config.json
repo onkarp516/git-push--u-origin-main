@@ -1,0 +1,49 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "browser",
+  "documentRoot": "/neucore-react/build/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*",
+    "os.*",
+    "filesystem.*",
+    "extensions.*"
+  ],
+  "modes": {
+    "window": {
+      "enableInspector": true,
+      "title": "Ethics-Suyash",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "maximize": true,
+      "icon": "/neucore-react/public/logo192.png"
+    },
+    "chrome": {
+      "enableInspector": true,
+      "title": "Ethics-Suyash",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "maximize": true,
+      "icon": "/neucore-react/public/logo192.png"
+    }
+  },
+  "cli": {
+    "binaryName": "Ethics-Suyash",
+    "resourcesPath": "/neucore-react/build/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/neucore-react/public/neutralino.js",
+    "binaryVersion": "4.2.0",
+    "clientVersion": "3.1.0",
+    "frontendLibrary": {
+      "patchFile": "/neucore-react/public/index.html",
+      "devUrl": "http://localhost:3000"
+    }
+  }
+}

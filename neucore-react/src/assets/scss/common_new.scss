@@ -1,0 +1,328 @@
+body {
+  background: #f5f5f5;
+}
+
+.ledger-form {
+  margin: 6px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.ledger-header {
+  //   /* border: 1px solid #eee; */
+  padding: 10px;
+  border-radius: 5px;
+  background: #f5f5f5;
+  font-size: 13px;
+}
+
+label {
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    font-size: 12px;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    font-size: 10px;
+  }
+}
+.form-label {
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #242424;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    font-size: 12px;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    font-size: 10px;
+  }
+}
+
+.from-style .form-control {
+  padding: 0;
+  height: 29px;
+  /* font-family: segoeui; */
+  font-size: 13px;
+  /* padding-left: 8px; */
+  border: none;
+  border-radius: unset;
+  box-shadow: 0px 2px 0px #cacaca !important;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500 !important;
+}
+
+.form-header {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  color: black;
+  /* font-family: segoeui; */
+  font-size: 15px;
+  padding: 7px;
+  background: #c4dbff;
+  padding-left: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 998;
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    font-size: 13px !important;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    font-size: 10px !important;
+  }
+}
+
+.btn_align {
+  text-align: right !important;
+}
+.mainbtn_create {
+  text-align: center;
+}
+.cancel-btn {
+  font-size: 13px;
+  padding: 5px 14px;
+}
+
+.form-style {
+  padding: 10px;
+}
+
+.row-border {
+  border: 1px solid #ced5dd;
+  border-radius: 12px;
+  margin: auto;
+  background: white;
+}
+
+.title-style {
+  margin-top: -15px;
+  border: 1px solid #dadada;
+  width: fit-content;
+  background: white;
+  border-radius: 7px;
+  padding: 6px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: #272d3b;
+  font-weight: bold;
+}
+
+.row-inside {
+  margin: 10px;
+}
+
+.date-style {
+  border: none;
+  font-size: 13px;
+  height: 30px;
+  width: 100%;
+  box-shadow: 0px 2px 0px #cacaca !important;
+  margin-top: -3px;
+}
+
+.createbtn {
+  font-family: segoeui;
+  // background: #0d6efd !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  border: none !important;
+  padding: 5px 14px;
+  margin-right: 10px;
+}
+.btsubmit {
+  height: 17px !important;
+  margin-left: 4px !important;
+  margin-bottom: 3px !important;
+  @media (min-width: 992px) and (max-width: 1024px) {
+    margin-bottom: 5px !important;
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    margin-bottom: 5px !important;
+  }
+  // @media (min-width: 1281px) and (max-width: 1368px) {
+  //   margin-bottom: 2px !important;
+  // }
+  // @media (min-width: 1368px) and (max-width: 1440px) {
+  //   margin-bottom: 2px !important;
+  // }
+}
+.btm-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.submitbtn {
+  border-radius: 20px;
+  padding: 2px 14px;
+  height: 30px;
+  font-size: 14px;
+  @media (min-width: 992px) and (max-width: 1024px) {
+    font-size: 12px;
+    padding: 0px 10px;
+    height: 25px;
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    font-size: 12px;
+    padding: 0px 10px;
+    height: 25px;
+  }
+}
+
+.icons {
+  height: 25px !important;
+  width: 25px !important;
+  margin-bottom: 8px;
+  margin-left: 4px;
+
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    height: 20px !important;
+    width: 20px !important;
+    margin-bottom: 8px;
+    margin-left: 4px;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+  }
+}
+.icons:hover {
+  border: none;
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+  }
+}
+.marico {
+  margin-right: 20px;
+  height: 20px;
+  @media (min-width: 992px) and (max-width: 1024px) {
+    height: 16px;
+  }
+}
+.btnico {
+  height: 17px;
+  margin-left: 4px !important;
+  margin-bottom: 9px !important;
+  @media (min-width: 992px) and (max-width: 1024px) {
+    margin-left: 2px !important;
+    margin-bottom: 5px !important;
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    margin-left: 2px !important;
+    margin-bottom: 5px !important;
+  }
+  // @media (min-width: 1281px) and (max-width: 1368px) {
+  //   margin-left: 0px !important;
+  //   margin-bottom: 0px !important;
+  // }
+}
+.add-btn-style {
+  padding: 3px 10px;
+  font-size: 14px;
+}
+.search-conrol {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-conrol:focus {
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #ced4da !important;
+}
+.iconstable:focus {
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid !important;
+}
+.iconstable {
+  height: 35px;
+  width: 35px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 2px;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    height: 16px;
+    width: 16px;
+  }
+  @media (min-width: 1200px) and (max-width: 1368px) {
+    height: 27px;
+    width: 27px;
+  }
+  @media (min-width: 1369px) and (max-width: 1440px) {
+    padding: 0px;
+    height: 27px;
+    width: 27px;
+  }
+}
+.closemodal:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+.denomination-style {
+  table {
+    border-collapse: separate !important;
+    border-spacing: 5px 4px !important;
+    margin-top: -5px;
+  }
+
+  .table thead > tr > th {
+    position: sticky;
+    top: -1px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      font-size: 13px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+  .table-sm > :not(caption) > * > * {
+    padding: 10px;
+    font-size: 15px;
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      font-size: 13px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+}
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+.css-26l3qy-menu {
+  z-index: 9999 !important;
+}
+.tableno {
+  width: 4%;
+}
+.tableno1 {
+  width: 40%;
+}
+.busarrow {
+  margin-top: 260px;
+  text-align: center;
+  @media (min-width: 992px) and (max-width: 1024px) {
+    margin-top: 150px;
+  }
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    margin-top: 150px;
+  }
+  @media (min-width: 1369px) and (max-width: 1440px) {
+    margin-top: 160px;
+  }
+}

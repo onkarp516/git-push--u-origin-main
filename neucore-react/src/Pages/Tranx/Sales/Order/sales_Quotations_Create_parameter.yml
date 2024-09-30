@@ -1,0 +1,58 @@
+ill_dt: 2021-12-13
+bill_no: SAM-20212022-SQDEC-00003
+sales_acc_id: 36
+sales_sr_no: 3
+transaction_dt: 2021-12-19
+debtors_id: 40
+roundoff: 0.00
+narration:
+total_base_amt: 100.00
+totalamt: 103.00
+taxable_amount: 100.00
+totalcgst: 1.50
+totalsgst: 1.50
+totaligst: 3.00
+totalqty: 0
+tcs: 0
+sales_discount: 0
+sales_discount_amt: 0
+total_sales_discount_amt: 0.00
+sales_disc_ledger: 0
+additionalChargesTotal: 0
+row:
+  [
+    {
+      'details_id': 0,
+      'product_id': 1,
+      'qtyH': '1',
+      'rateH': '100',
+      'qtyM': '',
+      'rateM': '',
+      'qtyL': '',
+      'rateL': '',
+      'base_amt_H': 100,
+      'base_amt_L': 0,
+      'base_amt_M': 0,
+      'base_amt': 100,
+      'dis_amt': '',
+      'dis_per': '',
+      'dis_per_cal': '',
+      'dis_amt_cal': '',
+      'total_amt': '100.00',
+      'igst': 3,
+      'cgst': 1.5,
+      'sgst': 1.5,
+      'total_igst': '3.00',
+      'total_cgst': '1.50',
+      'total_sgst': '1.50',
+      'final_amt': '103.00',
+      'serialNo': [],
+      'discount_proportional_cal': 0,
+      'additional_charges_proportional_cal': 0,
+    },
+  ]
+additionalCharges: []
+sale_type: sales_invoice
+taxCalculation:
+  { 'cgst': [{ 'gst': 1.5, 'amt': 1.5 }], 'sgst': [{ 'gst': 1.5, 'amt': 1.5 }] }
+taxFlag: true
